@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/fun3"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="High"
+        app:layout_constraintBottom_toTopOf="@+id/cost3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toEndOf="@+id/fun"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.793"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/fun2"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Mid"
+        app:layout_constraintBottom_toTopOf="@+id/cost2"
+        app:layout_constraintEnd_toStartOf="@+id/fun3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fun"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.793"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/fun1"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Low"
+        app:layout_constraintBottom_toTopOf="@+id/cost1"
+        app:layout_constraintEnd_toStartOf="@+id/fun2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fun"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.793"
+        app:rippleColor="#20AF26" />
+
+    <Button
+        android:id="@+id/time2"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Med"
+        app:layout_constraintBottom_toTopOf="@+id/risk2"
+        app:layout_constraintEnd_toStartOf="@+id/time3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.896"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/time3"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Fast"
+        app:layout_constraintBottom_toTopOf="@+id/risk3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toEndOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.896"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/time1"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Slow"
+        app:layout_constraintBottom_toTopOf="@+id/risk1"
+        app:layout_constraintEnd_toStartOf="@+id/time2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.9"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/cost2"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Mid"
+        app:layout_constraintBottom_toTopOf="@+id/time2"
+        app:layout_constraintEnd_toStartOf="@+id/cost3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cost"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.878"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/cost3"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="High"
+        app:layout_constraintBottom_toTopOf="@+id/time3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toEndOf="@+id/cost"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.878"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/cost1"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Low"
+        app:layout_constraintBottom_toTopOf="@+id/time1"
+        app:layout_constraintEnd_toStartOf="@+id/cost2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cost"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.878"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/risk3"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="High"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toEndOf="@+id/risk"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.431"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/risk1"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Safe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/risk2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/risk"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.43"
+        app:rippleColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/risk2"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:text="Mid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/risk3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/risk"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintVertical_bias="0.431"
+        app:rippleColor="#4CAF50" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Decision Calculator"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/fun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fun"
+        android:textColor="#F2EBEB"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textColor="#FBF5F5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="47dp"
+        android:layout_height="37dp"
+        android:text="Time"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <TextView
+        android:id="@+id/risk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Risk"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <Button
+        android:id="@+id/CalculatorDecision"
+        android:layout_width="205dp"
+        android:layout_height="79dp"
+        android:text="Calculator Decision"
+        android:textColorLink="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/risk"
+        app:layout_constraintVertical_bias="0.108"
+        app:rippleColor="#2196F3" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:text="More info"
+        android:textColorLink="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/CalculatorDecision"
+        app:layout_constraintTop_toBottomOf="@+id/risk3"
+        app:layout_constraintVertical_bias="0.069"
+        app:rippleColor="#FF9800" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="356dp"
+        android:layout_height="103dp"
+        android:ems="10"
+        android:hint="Result Thinking"
+        android:inputType="text"
+        android:textColorHint="#BDB0B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CalculatorDecision"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        app:layout_constraintVertical_bias="0.009"
+        app:rippleColor="#ED0606" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
